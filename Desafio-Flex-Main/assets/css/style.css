@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.menu-lat{
+    background-color: #1b1b1b;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    padding: 20px;
+    gap: 25px;
+}
+.layout{
+    display: flex;
+    min-height: 100vh;
+}
+.content{
+    width: 85%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
