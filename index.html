@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Pet Shop | Animaciones con CSS</title>
+    <meta
+      name="description"
+      content="Tienda de mascotas con productos, categorías, galería y datos de contacto."
+    />
+
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <nav class="menu-lateral" aria-label="Menú principal">
+      <a href="#inicio" class="brand" aria-label="Ir al inicio">
+        <img src="./assets/img/logo.jpg" class="logo-nav" alt="Logo Pet Shop" />
+        <p class="texto-nav">Pet Shop</p>
+      </a>
+
+      <div class="icon-nav" aria-hidden="true">
+        <img src="./assets/img/iconomenu.png" class="menu-nav" alt="" />
+      </div>
+
+      <div class="categorias">
+        <ul class="menuNav">
+          <li class="elemento">
+            <a href="#galeria">
+              <img src="./assets/img/gato.png" class="animales" alt="Icono gato" />
+              <span class="titulo-categoria">Gatos</span>
+            </a>
+          </li>
+          <li class="elemento">
+            <a href="#galeria">
+              <img src="./assets/img/perro.png" class="animales" alt="Icono perro" />
+              <span class="titulo-categoria">Perros</span>
+            </a>
+          </li>
+          <li class="elemento">
+            <a href="#galeria">
+              <img src="./assets/img/conejo.png" class="animales" alt="Icono conejo" />
+              <span class="titulo-categoria">Conejos</span>
+            </a>
+          </li>
+          <li class="elemento">
+            <a href="#galeria">
+              <img src="./assets/img/farmacia.png" class="animales" alt="Icono farmacia" />
+              <span class="titulo-categoria">Farmacia</span>
+            </a>
+          </li>
+          <li class="elemento">
+            <a href="#galeria">
+              <img src="./assets/img/higiene.png" class="animales" alt="Icono higiene" />
+              <span class="titulo-categoria">Higiene</span>
+            </a>
+          </li>
+          <li class="elemento">
+            <a href="#contacto">
+              <img src="./assets/img/cora.png" class="animales" alt="Icono salud" />
+              <span class="titulo-categoria">Contacto</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="filtro" id="inicio" aria-labelledby="titulo-filtro">
+      <p class="titulo-filtro" id="titulo-filtro">Ordenar por</p>
+      <select aria-label="Ordenar productos">
+        <option value="precio">Precio</option>
+        <option value="fecha">Fecha</option>
+      </select>
+    </section>
+
+    <main>
+      <section class="hero" aria-labelledby="titulo-principal">
+        <p class="eyebrow">Tienda de mascotas</p>
+        <h1 id="titulo-principal">Productos para regalonear a tus mascotas</h1>
+        <p>
+          Encuentra alimentos, accesorios, higiene y salud en una galería responsiva con efectos visuales en CSS.
+        </p>
+      </section>
+
+      <section class="productos" id="galeria" aria-label="Galería de productos">
+        <article class="card">
+          <img src="./assets/img/producto1.jpg" alt="Comida para gato N&D Prime" />
+          <h2>N&D Prime gato</h2>
+          <button type="button">Ver más</button>
+        </article>
+
+        <article class="card">
+          <img src="./assets/img/producto2.png" alt="Cama para gato" />
+          <h2>Cama para gatos</h2>
+          <button type="button">Ver más</button>
+        </article>
+
+        <article class="card">
+          <img src="./assets/img/producto3.png" alt="Arena para gato America Litter" />
+          <h2>Arena America Litter</h2>
+          <button type="button">Ver más</button>
+        </article>
+
+        <article class="card">
+          <img src="./assets/img/producto4.webp" alt="Juguete mordedor para perro Dingo Bone" />
+          <h2>Dingo Bone</h2>
+          <button type="button">Ver más</button>
+        </article>
+
+        <article class="card">
+          <img src="./assets/img/producto6.png" alt="Comida para conejo Ensalada del Campo" />
+          <h2>Ensalada del Campo</h2>
+          <button type="button">Ver más</button>
+        </article>
+
+        <article class="card">
+          <img src="./assets/img/producto7.png" alt="Collar para gato Resolve" />
+          <h2>Collar Resolve</h2>
+          <button type="button">Ver más</button>
+        </article>
+
+        <article class="card">
+          <img src="./assets/img/producto9.jpg" alt="Solución oftálmica para mascotas" />
+          <h2>Solución Oftálmica</h2>
+          <button type="button">Ver más</button>
+        </article>
+
+        <article class="card">
+          <img src="./assets/img/producto10.png" alt="Torre rascador para gato" />
+          <h2>Rascador</h2>
+          <button type="button">Ver más</button>
+        </article>
+      </section>
+
+      <div class="pagination" aria-label="Paginación">
+        <a href="#galeria" aria-label="Página anterior">«</a>
+        <a href="#galeria">1</a>
+        <a href="#galeria">2</a>
+        <a href="#galeria">3</a>
+        <a href="#galeria" aria-label="Página siguiente">»</a>
+      </div>
+    </main>
+
+    <footer id="contacto">
+      <div class="footer-info">
+        <h2>Pet Shop</h2>
+        <p>Contacto: contacto@petshop.cl</p>
+        <p>Teléfono: +56 9 1234 5678</p>
+      </div>
+
+      <div class="redes" aria-label="Redes sociales">
+        <a href="#" aria-label="Facebook de Pet Shop">
+          <img src="./assets/img/facebook.png" class="social" alt="Facebook" />
+        </a>
+        <a href="#" aria-label="Instagram de Pet Shop">
+          <img src="./assets/img/instagram.png" class="social" alt="Instagram" />
+        </a>
+      </div>
+
+      <p class="footer-credit">Proyecto Pet Shop</p>
+    </footer>
+  </body>
+</html>
