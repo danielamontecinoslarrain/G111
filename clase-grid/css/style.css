@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    vertical-align: baseline;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Raleway", sans-serif;
+}
+.grid-container {
+    display:grid;
+    grid-template-areas:
+    'header header header header'
+    'sidebar  main main main' 
+    'footer footer footer footer';
+    grid-template-columns: 20% 40% 40%; 
+}
+.header {grid-area: header ;}
+.main {grid-area: main;}
+.sidebar { grid-area: sidebar;}
+.footer { grid-area: footer;}
+.card {display: flex;}
+
+.sidebar {
+    grid-area: sidebar;
+    height: 100vh;
+    width: 100%;
+}
+.menu {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 20px 0;
+}
+ul.lista {
+    display: flex;
+}
+img.logo {
+    width: 9%;
+}
+button.botonesmenu {
+    border: 0;
+    padding: 10px 30px;
+    margin: 0 10px;
+}
+button.botonesmenu:hover {
+    color:#ac48ca;
+}
+li.textos-menu {
+    list-style: none;
+        display: flex;
+}
+li.buscador {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.main {
+    grid-area: main;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 70px;
+    padding: 60px;
+}
+
+img.card-img {
+    width: 100%;
+}
+
+ul.listasidebar {
+    width: 100%;
+    list-style: none;
+}
+
+p.online {
+    padding: 20px;
+    border: solid 1px #e4e4e4;
+    margin: 0px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+.comprar {
+    width: 100%;
+    padding: 10px;
+    background-color: #57c3c0;
+    color: rgb(255 255 255);
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 50px;
+    box-shadow: none;
+    border: 0;
+}
+.comprar:hover {color:#ffffff;
+background-color: #ac48ca;}
+
+h5.card-title {
+     font-family: "Raleway", sans-serif;
+    font-size: 1.1em;
+}
+p.card-text {
+     font-family: "Raleway", sans-serif;
+    margin-top: 15px;
+}
+.header.box {
+    padding: 0 5%;
+    background-color: #57c3c0;
+}
+button.botonesmenu {
+    border: 0;
+    padding: 10px 30px;
+    margin: 0 10px;
+    background: transparent;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+input[type="search"] {
+    border-radius: 20px 0px 0px 20px;
+    padding: 14px 20px;
+    border: 1px white solid;
+    width: 300px;
+}
+button {
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background: #bb9ce4;
+    color: white;
+    font-size: 1.1em;
+    padding: 11px 20px 13.4px 12px;
+    text-align: left;
+    margin: 0;
+    border: solid 0.5px #bb9ce4;
+}
+button.comprar {
+    text-align: center;
+}
+
+h1 {
+    text-align: center; 
+    font-family: "Raleway", sans-serif;
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+h3.online {
+    text-align: left;
+    padding: 25px 0;
+    font-family: system-ui;
+    color: #bb9ce4;
+    font-size: 1.7em;
+    margin-top: 5%;
+}
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+p.Precio {
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-top: 20px;
+}
+nav.menusidebar {
+    margin-left: 25%;
+    display: flex;
+}
+.footer {
+    grid-area: footer;
+    height: 60px;
+    background-color: #5a5959;
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-body {
+    display: flex;
+    flex-flow: wrap;
+}
+.card {
+    display: flex;
+    flex-flow: column;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}

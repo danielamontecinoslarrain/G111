@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.nav-lat {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  gap: 25px;
+  border: solid 1px #d9d9d9;
+}
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+.content {
+  width: 85%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+.nav-top {
+  width: 100%;
+  display: flex;
+}
+.nav-usuario {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+img.nav-foto-usuario {
+  width: 60px;
+}
+img.nav-foto-contactos {
+  width: 60px;
+}
+
+.nav-top-left {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.nav-top-right {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+img.nav-boton-chat {
+  width: 24px;
+  margin-right: 5px;
+}
+img.nav-boton-hamburguesa {
+  width: 24px;
+}
+p.nav-nombre-usuario {
+  font-size: 1rem;
+  color: #3b3b3b;
+  font-family: "poppins", "sans-serif";
+  font-weight: 500;
+  line-height: 1.2rem;
+}
+p.nav-estado-usuario {
+  font-family: "poppins", sans-serif;
+  color: #6d6d6d;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+}
+ul {
+  list-style: none;
+}
+li {
+  border-bottom: solid 1px #d9d9d9;
+  padding: 15px 40px;
+}
+.nav-info-usuario {
+  padding-left: 15px;
+}
+.contenido {
+  width: 50%;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img.imagen-logo {
+  width: 60%;
+}
+h1.titulo-contenido {
+  font-weight: 500;
+}
+p.texto-contenido {
+  font-weight: 300;
+}
+.nav-boton-nuevo-chat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button.chat {
+  width: 70%;
+  font-size: 1.1rem;
+  border: none;
+  background: #a57ed4;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
