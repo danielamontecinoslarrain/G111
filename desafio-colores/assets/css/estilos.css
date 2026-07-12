@@ -1,36 +1,23 @@
-.caja {
-    width: 200px;
-    height: 200px;
+* {
+  box-sizing: border-box;
 }
 
-.azul {
-    background-color: blue;
-}
-
-.rojo {
-    background-color: red;
-}
-
-.verde {
-    background-color: green;
-}
-
-.amarillo {
-    background-color: yellow;
-}
-
-#key {
-    width: 200px;
-    height: 200px;
-    background-color: white;
-    border: 1px solid black;
+body {
+  margin: 0;
+  padding: 30px;
+  font-family: Arial, sans-serif;
 }
 
 .cajas-colores {
-    display: flex;
-    margin-top: 5%;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
 }
-.color-parrafo {
-    text-align: center;
+
+#nuevos-colores {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
 }
