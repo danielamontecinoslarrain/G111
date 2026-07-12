@@ -1,0 +1,36 @@
+.caja {
+    width: 200px;
+    height: 200px;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+#key {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.cajas-colores {
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+}
+.color-parrafo {
+    text-align: center;
+}
